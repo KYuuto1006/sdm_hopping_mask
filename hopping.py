@@ -147,7 +147,7 @@ def hopping(prompt="", guidance_scale=7.5, steps=50, seed=None, width=512, heigh
             image = image.cpu().permute(0, 2, 3, 1).numpy()
             image = (image[0] * 255).round().astype("uint8")
             Image.fromarray(image).save(os.path.join(r'results/', '{seed} {name}.png'.format(seed=seed, name=name)))
-
+            # save images in folder results
 
 
 ######################################################################
