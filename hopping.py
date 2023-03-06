@@ -176,4 +176,4 @@ seed = 1212
 #stablediffusion2(prompt=prompt2, prompt2=prompt3, seed=seed, steps=50).save(os.path.join(r'results/mh_results/', 'mh {seed} {name}.png'.format(seed=seed, name=prompt3)))
 hopping(prompt, seed=seed, steps=50)
 #stablediffusion(prompt1, prompt2, prompt_edit_spatial_start=prompt_edit_spatial_start, prompt_edit_token_weights=prompt_edit_token_weights, seed=seed).save(os.path.join(r'results/ptp_results/', 'new {seed} {start} {weight} {name}.png'.format(seed=seed, start=prompt_edit_spatial_start, weight=prompt_edit_token_weights, name=prompt2)))
-#prompt_edit_spatial_start 越大， 越不按照原图
+#prompt_edit_spatial_start bigger, more creative
