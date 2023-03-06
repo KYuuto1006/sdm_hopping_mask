@@ -10,7 +10,7 @@ from tqdm.auto import tqdm
 from torch import autocast
 import os
 
-auth_token = "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" #input your hugging face access token
+auth_token = " " #input your hugging face access token
 
 #Init CLIP tokenizer and model
 model_path_clip = "openai/clip-vit-large-patch14" 
